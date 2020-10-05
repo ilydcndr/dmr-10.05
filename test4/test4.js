@@ -147,6 +147,7 @@ function myFunction() {
 
                     // kupondan maç sildiğinde eleman sayısını kontrol et 
                     if(selectedMatches.length<3){
+                        document.getElementsByClassName('play')[0].style.backgroundColor = 'rgba(133, 131, 119, 0.336)'
                         document.getElementById('totalMatch').innerHTML = `Maç:${selectedMatches.length} Kolon:1`
                         document.getElementsByClassName('warning')[0].style.display = 'block'
                         document.getElementById('ruleMbs').innerHTML = 3 - selectedMatches.length
