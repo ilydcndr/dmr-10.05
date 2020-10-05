@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+body{
+	display: grid;
+    grid-template-columns: auto auto;
+}
+article:nth-child(1) {
+	background: red;
+  }
+  article:nth-child(2) {
+	background: yellow;
+  }
+  article:nth-child(3) {
+	background: blue;
+  }
+  article:nth-child(4) {
+	background: green;
+  }
+  article{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
